@@ -6,25 +6,30 @@ export default function Home() {
   return (
     <div>      
       <main>
-        <section>
-        <div className="bg-crew-img w-full h-[45rem] bg-cover bg-center">
-          
-          <div className="p-4">
-            <div className=" absolute top-[20rem] z-10 text-white ">
+        <section className="border-2 border-green-500">
+        <div className=" bg-crew-img w-full h-[45rem] bg-cover bg-center">
+            <div className="border border-orange-600 ">  
+              <div className=" absolute top-[25rem] md:top-[20rem] z-10 text-white ">
+                <div className=" absolute m-2 border-2 border-lime-400">
               <h1 className=" text-3xl md:text-6xl font-extrabold">
                 ROUNDHOUSE <br />
                 Brazilian Jiujitsu
               </h1>
-            </div>
-          </div>
-          <div className="p-4">
-            <button className=" absolute top-[30rem] text-2xl bg-blue-500 opacity-75 hover:opacity-100 font-bold  text-black pt-2 pb-2 pl-4 pr-4 border-2 border-black">Try a Free Class Today</button>
-          </div>
+                
+                <div className="md:p-4">
+                  <button className="top-[30rem] text-2xl font-bold  bg-blue-500 opacity-75 hover:opacity-100  text-black p-2 md:pt-2 md:pb-2 md:pl-4 md:pr-4 border-2 border-black">Try a Free Class Today</button>
+                  </div>
+                </div>
+              </div>
+             
+              
+            </div>  
 
         </div>
         </section>
-        <section className="mt-20 mb-20 mr-44 ml-44">
-          <div className="flex flex-col md:flex-row ">
+        {/* <section className="border-yellow-500 mt-20 mb-20 mr-44 ml-44"> */}
+        <section className="border-2 border-yellow-500 md:mr-44 md:ml-44 mt-20 mb-20">
+        <div className="flex flex-col md:flex-row  ">
           <div>
             <Image
               src={Rodo}
@@ -42,9 +47,9 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className=" mr-44 ml-44">
+        <section className="border-2 border-purple-500 ">
           
-          <div className="flex flex-col">
+          <div className=" border-2 border-e-red-700 flex flex-col md:mr-44 md:ml-44">
             
             <div className=" flex  p-4 md:text-5xl text-2xl font-bold  text-center border-4 border-black "><p className="mr-6 text-blue-500 text-8xl">6</p><p className="ml-auto mr-auto mt-auto mb-auto">PRINCIPLES OF SATORI BJJ</p></div>
             <div className="flex flex-col justify-between font-extrabold md:flex-row">

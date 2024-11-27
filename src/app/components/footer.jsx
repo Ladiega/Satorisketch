@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="bg-black text-white mt-44 ">     
-        <div className="p-44">
+    <footer className="border-2 border-yellow-400  bg-black text-white md:mt-44 ">     
+        <div className="border-2 border-lime-300 m-2 md:p-44">
           <div>
             <h1 className="text-blue-500 text-4xl font-black">STAY UPDATE</h1>
           </div>
