@@ -8,7 +8,7 @@ export default function Home() {
       <main>
         <section className="">
         <div className=" bg-crew-img w-full h-[45rem] bg-cover bg-center">
-            <div className="border border-orange-600 ">  
+            <div className="">  
               <div className=" absolute top-[25rem] md:top-[20rem] z-10 text-white ">
                 <div className=" absolute m-2 ">
               <h1 className=" text-3xl md:text-6xl font-extrabold mb-10">
