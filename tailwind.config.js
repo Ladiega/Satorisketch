@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'crew-img':"url('/images/satoristudents2.jpeg')"
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
