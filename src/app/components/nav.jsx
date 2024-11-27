@@ -6,9 +6,9 @@ import { Instagram, Facebook, CircleUserRound, AlignJustify} from 'lucide-react'
 
 export default function Nav() {
   return (
-    <div className="border-2 border-red-500 sticky z-50 top-0 w-full bg-black text-white p-2 md:p-5">
+    <div className=" sticky z-50 top-0 w-full bg-black text-white p-2 md:p-5">
       <nav className="md:flex md:gap-4 justify-between font-semibold">
-        <div className="flex justify-between border-2 border-teal-600">         
+        <div className="flex justify-between ">         
             <Image
             width={120}
             src={satoriLogo}
@@ -35,7 +35,7 @@ export default function Nav() {
         </div>
 
         <div className="hidden md:block ">
-        <div className="flex gap-5 md:border-2 md:border-sky-400">
+        <div className="flex gap-5 ">
         <div className="flex gap-2">
           <div className="cursor-pointer text-white"><CircleUserRound/></div>
           <h3 className="hover:text-gray-500 cursor-pointer">LogIn</h3>

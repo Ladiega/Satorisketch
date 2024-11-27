@@ -2,7 +2,7 @@ import { FacebookIcon,Instagram, InstagramIcon } from "lucide-react"
 
 export default function Footer() {
   return (
-    <footer className="border-2 border-yellow-400  bg-black text-white md:mt-44 ">     
+    <footer className="pt-20 pb-20 bg-black text-white md:mt-44 ">     
         <div className="border-4 border-blue-500 m-2 md:m-44 md:p-4 text-center">
           <div>
             <h1 className="text-blue-500 m-5 text-4xl font-black md:text-7xl">STAY UPDATE</h1>
