@@ -11,7 +11,7 @@ export default function Home() {
           
           <div className="p-4">
             <div className=" absolute top-[20rem] z-10 text-white ">
-              <h1 className=" text-5xl md:text-6xl font-extrabold">
+              <h1 className=" text-3xl md:text-6xl font-extrabold">
                 ROUNDHOUSE <br />
                 Brazilian Jiujitsu
               </h1>
