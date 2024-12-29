@@ -53,3 +53,23 @@ npm install lucide-react
  https://satorisketch.vercel.app/ 
  update# Satorisketch
  Test
+
+
+## Custam Hook explained by chatGpt
+Espanol
+
+Explicación detallada
+	1.	Hook personalizado: useInView
+	•	Usa useRef para observar el elemento DOM de cada card.
+	•	Usa IntersectionObserver para detectar si el elemento está visible en el viewport.
+	•	Actualiza el estado isVisible cuando el elemento entra al viewport.
+	2.	Clases de animación de Tailwind
+	•	opacity-0: La card está oculta inicialmente.
+	•	translate-y-10: Desplaza la card hacia abajo fuera de su posición.
+	•	opacity-100 translate-y-0: Hace visible la card y la devuelve a su posición original.
+	•	transition-all duration-700 ease-out: Suaviza la transición y establece una duración de 700ms.
+	3.	Aplicación del Hook
+	•	Cada card tiene su propio hook para observar cuándo entra en el viewport.
+	•	Se aplica el hook en cada div usando ref y se vincula el estado isVisible.
+	4.	Estructura reutilizable
+	•	Las cards usan el mismo patrón y lógica, lo que permite una estructura clara y fácil de mantener.
