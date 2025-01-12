@@ -73,3 +73,5 @@ Explicación detallada
 	•	Se aplica el hook en cada div usando ref y se vincula el estado isVisible.
 	4.	Estructura reutilizable
 	•	Las cards usan el mismo patrón y lógica, lo que permite una estructura clara y fácil de mantener.
+	
+## Push test 12 Jan
